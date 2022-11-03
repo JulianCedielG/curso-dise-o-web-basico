@@ -1,0 +1,139 @@
+header{
+    text-align: center;
+    color: crimson;
+    background-color:aquamarine;
+}
+
+nav{
+    text-align: center;
+    background-color: aquamarine;
+}
+nav a{
+text-decoration-line: none;
+padding-left: 40px;
+}
+
+header,nav,footer,section{
+
+    background-color: aquamarine;
+    border-style: 1;
+    margin: 15px auto;
+    padding: 10px;
+    width: 80%;
+
+}
+
+footer{
+
+    clear: both;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    background-color: aquamarine;
+}
+
+article{
+text-align: center;
+background-color:aquamarine;
+border-style: 1;
+margin: 10px auto;
+padding: 20px;
+width: 25%;
+display: inline-block;
+margin-bottom: 100px;
+margin-right: 40px;
+margin-left: 40px;
+
+}
+
+p{
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    color: crimson;
+}
+#uno{ 
+    margin-left: 330px ;
+    background-color:aquamarine;
+    touch-action: manipulation;
+}
+html{
+    background-color: aquamarine;
+}
+
+#ini{
+
+    background-image: url("img/img1.jpeg");
+    background-size: 900px;
+ 
+  
+    width: 900px;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-color: aquamarine;
+
+    animation-duration: 3s;
+animation-name:slidein;
+}
+
+
+#un{
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/56cb8c41-e898-44ce-b6b7-fe9b9a05f529/bvlatuR/std/1200x628/MS-Social");
+    background-size: 500px;
+ 
+  margin-left: 250px;
+    width: 420px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-color: aquamarine;
+    
+}
+
+#do{
+    background-image: url("https://siempreauto.com/wp-content/uploads/sites/9/2020/11/Tesla-Model-3-1-e1604272246795.jpg?quality=80&strip=all");
+    background-size: 500px;
+ 
+  
+    width: 420px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-color: aquamarine;
+}
+
+#tre{
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/8c26f779-11e5-4cfc-bd7c-dcd03b18ff88/bvlatuR/std/4096x2561/Model-X-Main-Hero-Desktop-LHD");
+    background-size: 500px;
+ 
+  margin-left: 250px;
+    width: 420px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-color: aquamarine;
+}
+
+#cua{
+    background-image: url("https://img.phonandroid.com/2022/10/tesla-modelY-peinture-rouge.jpg");
+    background-size: 500px;
+ 
+
+    width: 420px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-color: aquamarine;
+}
+
+#un :hover{
+
+    visibility: hidden;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 400px;
+    }
+  }
